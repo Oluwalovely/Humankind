@@ -509,8 +509,6 @@ img {
 
 
 .pot {
-    display: flex;
-    flex-basis: 50%;
     max-width: 50%;
     margin: auto;
 }
@@ -979,7 +977,7 @@ img {
 
 @media screen and (max-width:425px) {
     .image-stack{
-        padding: 100px;
+        padding: 300px 100px 100px 100px;
     }
 
     .stacked{
@@ -998,7 +996,8 @@ img {
 
     .combine3 h3 {
         font-size: 27px;
-        top: 64%;
+        top: 63%;
+        width: 203px;
     }
 
     .combine4 h3 {
@@ -1006,8 +1005,24 @@ img {
         top: 88%;
     }
 
+    .buy2{
+        margin-left: -10%;
+    }
+
+    .items{
+        text-align: left;
+    }
+
     .parent{
         padding: 0;
+    }
+
+    .pc{
+        text-align: center;
+    }
+
+    .buy{
+        text-align: left;
     }
 
     .sec4{
@@ -1074,23 +1089,35 @@ img {
 
 @media screen and (max-width:375px) {
     .combine1 h3 {
-        font-size: 30px;
+        font-size: 20px;
         top: 16%;
     }
 
     .combine2 h3 {
-        font-size: 30px;
+        font-size: 20px;
         top: 40%;
     }
 
     .combine3 h3 {
-        font-size: 36px;
-        top: 62%;
+        font-size: 20px;
+        top: 63%;
     }
 
     .combine4 h3 {
-        font-size: 30px;
-        top: 88%;
+        font-size: 20px;
+        top: 88.5%;
+    }
+
+    .buy2{
+        margin-left: -35px;
+    }
+
+    .pc{
+        text-align: center;
+    }
+
+    .buy{
+        text-align: left;
     }
 
     h2{
@@ -1124,23 +1151,23 @@ img {
 
 @media screen and (max-width:320px) {
     .combine1 h3 {
-        font-size: 30px;
+        font-size: 20px;
         top: 14%;
     }
 
     .combine2 h3 {
-        font-size: 30px;
-        top: 39%;
+        font-size: 20px;
+        top: 37.5%;
     }
 
     .combine3 h3 {
-        font-size: 30px;
-        top: 61%;
+        font-size: 20px;
+        top: 60%;
     }
 
     .combine4 h3 {
-        font-size: 25px;
-        top: 87%;
+        font-size: 20px;
+        top: 86%;
     }
 
     h2{
@@ -1193,5 +1220,25 @@ img {
 
     .sec4{
         padding: 15px;
+    }
+
+    .pc h2{
+        font-size: larger;
+    }
+
+    .buy{
+        font-size: 16px;
+    }
+
+    .items{
+        gap: 10px;
+    }
+
+    .ma{
+        gap: 0;
+    }
+
+    .buy2{
+        font-size: small;
     }
 }
