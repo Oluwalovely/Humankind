@@ -114,7 +114,6 @@ button:hover {
     border: 1px solid white;
     border-radius: 5px;
     color: white;
-
 }
 
 .image-stack>a:hover {
@@ -133,8 +132,6 @@ button:hover {
 }
 
 .items {
-    /* border: 2px solid black; */
-    /* width: 30%; */
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -145,7 +142,6 @@ button:hover {
     gap: 50px;
     justify-content: center;
     padding: 90px 60px;
-
 }
 
 h2 {
@@ -164,7 +160,6 @@ h2 {
 .buy2 {
     font-weight: 400;
     font-family: "Rubik", sans-serif;
-    margin-left: 20px;
 }
 
 .buy2 li::marker {
@@ -211,23 +206,18 @@ h2 {
     padding: 100px 50px;
 }
 
-
-
 .man {
     color: white;
     display: flex;
     flex-direction: column;
     gap: 40px;
-
 }
 
 .lead-div {
     display: flex;
     justify-content: center;
     gap: 100px;
-
 }
-
 
 .top {
     color: #f4f3ef;
@@ -275,7 +265,6 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    /* padding: 0px 200px; */
 }
 
 .group1 {
@@ -325,7 +314,6 @@ img {
     padding: 5px 10px;
 }
 
-
 .btnc{
     font-family: "Rubik", sans-serif;
     font-size: 17px;
@@ -340,10 +328,6 @@ img {
 .btna:hover {
     background-color: white;
     color: #131622;
-}
-
-.btnb:hover {
-    
 }
 
 .btnc:hover{
@@ -364,15 +348,12 @@ img {
     padding: 5rem 10rem;
 }
 
-
-
 .oss {
     font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: white;
 }
-
 
 .sop {
     display: flex;
@@ -418,7 +399,6 @@ img {
 }
 
 .tags {
-    /* width: 800px; */
     display: flex;
     justify-content: start center;
     align-items: center;
@@ -467,8 +447,6 @@ img {
     gap: 10px;
 }
 
-
-
 .note{
     list-style-type: none;
     color: black;
@@ -487,7 +465,6 @@ img {
     background-color: white;
 }
 
-
 .sle-img{
     flex-basis: 20%;
 }
@@ -496,7 +473,6 @@ img {
     display: flex;
     align-items: start;
 }
-
 
 .sect{
     background-color: #0d1422;
@@ -507,18 +483,15 @@ img {
     position: relative;
 }
 
-
 .pot {
     max-width: 50%;
     margin: auto;
 }
 
-
 .combine1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     gap: 20px;
 }
 
@@ -678,6 +651,7 @@ img {
     line-height: 20px;
     text-align: center;
 }
+
 .stacked {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -707,7 +681,6 @@ img {
     font-weight: 900;
     text-transform: uppercase;
 }
-
 
 .anime-group {
     animation-iteration-count: infinite;
@@ -905,6 +878,20 @@ img {
     }
 
     .items{
+        text-align: start;
+    }
+
+    .buy{
+        font-size: 20px;
+    }
+
+    .buy2{
+        padding-left: 0%;
+        margin-left: -160px;
+        font-size: 20px;
+    }
+
+    .pc h2{
         text-align: center;
     }
 
@@ -914,6 +901,7 @@ img {
 
     p{
         text-align: center;
+        margin-bottom: 0%;
     }
 
     .lead-div{
@@ -975,7 +963,7 @@ img {
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:430px) {
     .image-stack{
         padding: 300px 100px 100px 100px;
     }
@@ -986,7 +974,7 @@ img {
 
     .combine1 h3 {
         font-size: 30px;
-        top: 17%;
+        top: 16%;
     }
 
     .combine2 h3 {
@@ -1005,8 +993,13 @@ img {
         top: 88%;
     }
 
+    .buy{
+        font-size: 17px;
+    }
+
     .buy2{
-        margin-left: -10%;
+        margin-left: 0%;
+        font-size: 16px;
     }
 
     .items{
@@ -1105,11 +1098,12 @@ img {
 
     .combine4 h3 {
         font-size: 20px;
-        top: 88.5%;
+        top: 87%;
     }
 
     .buy2{
-        margin-left: -35px;
+        margin-left: 0px;
+        font-size: 14px;
     }
 
     .pc{
@@ -1118,6 +1112,7 @@ img {
 
     .buy{
         text-align: left;
+        font-size: 15px;
     }
 
     h2{
@@ -1174,11 +1169,6 @@ img {
         font-size: 25px;
     }
 
-    /* .btn{
-        padding: 10px 30px;
-        font-size: 11px;
-    } */
-
     .ma{
         align-items: center;
     }
@@ -1227,7 +1217,7 @@ img {
     }
 
     .buy{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .items{
