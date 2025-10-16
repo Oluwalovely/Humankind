@@ -1,0 +1,1190 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d1422;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* .nav-links {
+    display: flex;
+    gap: 20px;
+} */
+
+.logo{
+    color: white;
+    font-size: 35px;
+}
+
+.nav-links>a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.signup>a {
+    text-decoration: none;
+    color: #cfd0d3;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.signup>i {
+    color: #cfd0d3;
+}
+
+span>a:hover {
+    color: white;
+}
+
+span>i:hover {
+    color: white;
+}
+
+.btn5 {
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #cfd0d3;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0d1422;
+    text-decoration: none;
+}
+
+.btn5:hover {
+    background-color: white;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.logo {
+    flex-basis: 50%;
+}
+
+.image-stack {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 230px 20px;
+    background-image: linear-gradient(to bottom, transparent 60%, #0d1422), url(./Media/KeyArt_Oceania_3840x2160\ \(2\).jpg);
+    background-size: cover;
+}
+
+.image-stack>a {
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 20px 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.image-stack>a:hover {
+    background-color: white;
+    color: black;
+}
+
+.promo {
+    width: 100%;
+    height: 600px;
+}
+
+.sec-2 {
+    background-image: url(./Media/promo-bg.jpg);
+    background-size: cover;
+}
+
+.items {
+    /* border: 2px solid black; */
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fle {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 90px 60px;
+
+}
+
+h2 {
+    font-size: 41px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #222738;
+}
+
+.buy {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buy2 {
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    margin-left: 20px;
+}
+
+.buy2 li::marker {
+    content: "-";
+}
+
+.ma {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.btnn{
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    padding: 20px 40px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btnn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+}
+
+.pics {
+    border-radius: 5px 0 0 0;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.sec3 {
+    background-image: url(./Media/second-promo-landscape.jpg);
+    background-size: cover;
+    padding: 100px 50px;
+}
+
+
+
+.man {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.lead-div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+
+.top {
+    color: #f4f3ef;
+    font-family: "Rubik", sans-serif;
+    font-size: 41px;
+    font-weight: 500;
+}
+
+.top2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.top3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sign {
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #131622;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.sign:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    /* padding: 0px 200px; */
+}
+
+.group1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.group2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.top10 {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #f4f3ef;
+    text-align: center;
+}
+
+.sec4 {
+    background-color: #131622;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn10 {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.btna,
+.btnb{
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.btnc{
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.btna:hover {
+    background-color: white;
+    color: #131622;
+}
+
+.btnb:hover {
+    
+}
+
+.btnc:hover{
+    background-color: white;
+    color: #131622;
+}
+
+.cate {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec5 {
+    background: url(https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/G2G-Background.jpg?VersionId=zwMCcUzGQJMDjtF4wRZbVeh5LhmtBOdZ&itok=RQ2y4fuN);
+    background-size: cover;
+    width: 100%;
+    padding: 5rem 10rem;
+}
+
+
+
+.oss {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.sop {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+}
+
+.foot {
+    background-color: #13223f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+
+.linee{
+    border-bottom: 2px solid white !important;
+    display: inline-block;
+}
+
+.oft {
+    display: flex;
+    gap: 30px;
+}
+
+.tee {
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.hoo a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.tags {
+    /* width: 800px; */
+    display: flex;
+    justify-content: start center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.fot {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hoo {
+    display: flex;
+    gap: 30px;
+}
+
+.fun button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    
+}
+
+.fun a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fun a:hover {
+    text-decoration: underline;
+}
+
+.fun{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+
+
+.note{
+    list-style-type: none;
+    color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    flex-basis: 40%;
+}
+
+.sle {
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    outline: 1px solid white;
+    background-color: white;
+}
+
+
+.sle-img{
+    flex-basis: 20%;
+}
+
+.bet{
+    display: flex;
+    align-items: start;
+}
+
+
+.sect{
+    background-color: #0d1422;
+    border-top: 6px solid white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.pot {
+    display: flex;
+    flex-basis: 50%;
+    max-width: 50%;
+    margin: auto;
+}
+
+
+.combine1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.combine1 video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.combine1 h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+}
+
+.combine1 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+}
+
+.combine1 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.combine2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.combine2 video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.combine2 h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+}
+
+.combine2 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+}
+
+.combine2 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.combine3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.combine3 video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.combine3 h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+}
+
+.combine3 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+}
+
+.combine3 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.combine4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.combine4 video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.combine4 h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+}
+
+.combine4 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+}
+
+.combine4 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.stacked {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.animesec {
+    background-image: url('https://cdn.sega.co.uk/humankind-game/public/styles/1600/public/content/media/bg/image/quote_bg.jpg?VersionId=6WLCQHMf.V5zlZf7861yHzFKqEJQ20qn&itok=EAvqfyl3');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    align-self: center;
+}
+
+.animesec h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.anime-group {
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anime1 {
+    animation-name: anime1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes anime1 {
+
+    0%,
+    30% {
+        opacity: 0;
+    }
+
+    35%,
+    60% {
+        opacity: 1;
+    }
+
+    65%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.anime2 {
+    animation-name: anime2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes anime2 {
+
+    0%,
+    30% {
+        opacity: 0;
+    }
+
+    35%,
+    60% {
+        opacity: 1;
+    }
+
+    65%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.anime3 {
+    animation-name: anime3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes anime3 {
+
+    0%,
+    30% {
+        opacity: 0;
+    }
+
+    35%,
+    60% {
+        opacity: 1;
+    }
+
+    65%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .combine1 h3{
+        top: 373px;
+        font-size: 17px;
+    }
+
+    .combine2 h3{
+        top: 373px;
+        font-size: 17px;
+    }
+
+    .combine3 h3{
+        top: 373px;
+        font-size: 17px;
+    }
+
+    .combine4 h3{
+        top: 373px;
+        font-size: 17px;
+    }
+
+    .combine1 p{
+        text-align: center;
+    }
+
+    .combine1 h2{
+        text-align: center;
+    }
+
+    .combine2 p{
+        text-align: center;
+    }
+
+    .combine2 h2{
+        text-align: center;
+    }
+
+    .combine3 p{
+        text-align: center;
+    }
+
+    .combine3 h2{
+        text-align: center;
+    }
+
+    .combine4 p{
+        text-align: center;
+    }
+
+    .combine4 h2{
+        text-align: center;
+    }
+
+    .btnn{
+        padding: 10px;
+    }
+
+    .sign{
+        padding: 10px 15px;
+    }
+
+    .sec5{
+        padding: 25px;
+    }
+
+    .sec4{
+        padding: 25px;
+    }
+
+    .btnc{
+        padding: 10px;
+    }
+
+    .sop{
+        gap: 44px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .combine1 h3 {
+        font-size: 25px;
+        top: 33%;
+    }
+
+    .combine2 h3{
+        top: 33%;
+        font-size: 25px;
+    }
+
+    .combine3 h3{
+        top: 79%;
+        font-size: 25px;
+    }
+
+    .combine4 h3{
+        top: 79%;
+        font-size: 25px;
+    }
+
+    .ma{
+        align-items: center;
+    }
+
+    .items{
+        text-align: center;
+    }
+
+    .man{
+        align-items: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .lead-div{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .fle{
+        flex-direction: column-reverse;
+    }
+
+    .sec4{
+        padding: 32px;
+    }
+
+    .top{
+        font-size: 31px;
+    }
+
+    .parent{
+        padding: 20px 100px;
+    }
+
+    .btn10{
+        justify-content: center;
+    }
+
+    .btna{
+        padding: 10px 20px;
+    }
+    
+    .btnb{
+        padding: 10px 20px;
+    }
+
+    .group1{
+        grid-template-columns: 1fr;
+    }
+
+    .group2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sec5{
+        padding: 10px 20px;
+    }
+
+    .sop{
+        gap: 30px;
+    }
+
+    .stacked{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .btnc{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .image-stack{
+        padding: 100px;
+    }
+
+    .stacked{
+        grid-template-columns: 1fr;
+    }
+
+    .combine1 h3 {
+        font-size: 30px;
+        top: 17%;
+    }
+
+    .combine2 h3 {
+        font-size: 30px;
+        top: 40%;
+    }
+
+    .combine3 h3 {
+        font-size: 27px;
+        top: 64%;
+    }
+
+    .combine4 h3 {
+        font-size: 28px;
+        top: 88%;
+    }
+
+    .parent{
+        padding: 0;
+    }
+
+    .sec4{
+        padding: 30px;
+    }
+
+    .sop{
+        align-items: center;
+        gap: 15px;
+    }
+
+    .foot{
+        padding: 10px;
+    }
+
+    .oft{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sign{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .man{
+        gap: 30px;
+        align-items: center;
+    }
+
+    .top{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .top2{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .btnn{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .ma{
+        align-items: center;
+    }
+
+    .image-stack>a{
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+    .pot{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .combine1 h3 {
+        font-size: 30px;
+        top: 16%;
+    }
+
+    .combine2 h3 {
+        font-size: 30px;
+        top: 40%;
+    }
+
+    .combine3 h3 {
+        font-size: 36px;
+        top: 62%;
+    }
+
+    .combine4 h3 {
+        font-size: 30px;
+        top: 88%;
+    }
+
+    h2{
+        font-size: 29px;
+    }
+
+    .top{
+        font-size: 23px;
+    }
+
+    .top2{
+        font-size: 19px;
+    }
+
+    .top3{
+        font-size: 15px;
+    }
+
+    .animesec h2{
+        font-size: 20px;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .sec4{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .combine1 h3 {
+        font-size: 30px;
+        top: 14%;
+    }
+
+    .combine2 h3 {
+        font-size: 30px;
+        top: 39%;
+    }
+
+    .combine3 h3 {
+        font-size: 30px;
+        top: 61%;
+    }
+
+    .combine4 h3 {
+        font-size: 25px;
+        top: 87%;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    /* .btn{
+        padding: 10px 30px;
+        font-size: 11px;
+    } */
+
+    .ma{
+        align-items: center;
+    }
+
+    .image-stack>a{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .top{
+        font-size: 22px;
+    }
+
+    .top2{
+        font-size: 18px;
+    }
+
+    .top3{
+        font-size: 14px;
+    }
+
+    .sign{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .man{
+        gap: 24px;
+        align-items: center;
+    }
+
+    .animesec h2{
+        font-size: 18px;
+    }
+
+    .oss{
+        font-size: 12px;
+    }
+
+    .sec4{
+        padding: 15px;
+    }
+}
