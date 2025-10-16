@@ -29,10 +29,12 @@ nav {
     z-index: 100;
 }
 
-/* .nav-links {
+.nav-links {
     display: flex;
     gap: 20px;
-} */
+    justify-content: center;
+    align-items: center;
+}
 
 .logo{
     color: white;
@@ -45,6 +47,7 @@ nav {
     font-size: 15px;
     font-weight: 400;
     font-family: "Rubik", sans-serif;
+    white-space: nowrap;
 }
 
 .signup>a {
@@ -552,6 +555,7 @@ img {
     color: white;
     text-transform: uppercase;
     line-height: 20px;
+    text-align: center;
 }
 
 .combine2 {
@@ -592,6 +596,7 @@ img {
     color: white;
     text-transform: uppercase;
     line-height: 20px;
+    text-align: center;
 }
 
 .combine3 {
@@ -632,6 +637,7 @@ img {
     color: white;
     text-transform: uppercase;
     line-height: 20px;
+    text-align: center;
 }
 
 .combine4 {
@@ -672,6 +678,7 @@ img {
     color: white;
     text-transform: uppercase;
     line-height: 20px;
+    text-align: center;
 }
 .stacked {
     display: grid;
