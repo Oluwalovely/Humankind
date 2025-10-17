@@ -787,6 +787,29 @@ img {
     }
 }
 
+@media screen and (max-width: 1114px) {
+    .combine1 h3{
+        top: 380px;
+        font-size: 17px;
+    }
+
+    .combine2 h3{
+        top: 380px;
+        font-size: 17px;
+    }
+
+    .combine3 h3{
+        top: 380px;
+        font-size: 17px;
+        width: 203px;
+    }
+
+    .combine4 h3{
+        top: 380px;
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .combine1 h3{
         top: 373px;
