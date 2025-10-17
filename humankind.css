@@ -855,6 +855,26 @@ img {
     .stacked{
         grid-template-columns: 1fr 1fr;
     }
+
+    .combine1 h3 {
+        font-size: 25px;
+        top: 33%;
+    }
+
+    .combine2 h3{
+        top: 33%;
+        font-size: 25px;
+    }
+
+    .combine3 h3{
+        top: 79%;
+        font-size: 25px;
+    }
+
+    .combine4 h3{
+        top: 79%;
+        font-size: 25px;
+    }
 }
 
 
