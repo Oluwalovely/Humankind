@@ -772,6 +772,28 @@ img {
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .combine1 h3{
+        top: 372px;
+        font-size: 17px;
+    }
+
+    .combine2 h3{
+        top: 372px;
+        font-size: 17px;
+    }
+
+    .combine3 h3{
+        top: 372px;
+        font-size: 17px;
+        max-width: 203px;
+    }
+
+    .combine4 h3{
+        top: 372px;
+        font-size: 17px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .combine1 h3{
