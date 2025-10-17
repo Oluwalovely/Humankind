@@ -110,7 +110,7 @@ button:hover {
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
-    padding: 20px 50px;
+    padding: 15px 20px;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
@@ -177,7 +177,7 @@ h2 {
     text-decoration: none;
     background-color: black;
     text-align: center;
-    padding: 20px 40px;
+    padding: 15px 20px;
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 20px;
@@ -246,7 +246,7 @@ h2 {
     color: #131622;
     background-color: white;
     border-radius: 5px;
-    padding: 20px 40px;
+    padding: 15px 20px;
 }
 
 .sign:hover {
@@ -395,7 +395,6 @@ img {
     font-family: "Rubik", sans-serif;
     font-size: 12px;
     font-weight: 600;
-
 }
 
 .tags {
@@ -403,7 +402,6 @@ img {
     justify-content: start center;
     align-items: center;
     gap: 20px;
-
 }
 
 .fot {
@@ -452,9 +450,8 @@ img {
     color: black;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
-    flex-basis: 40%;
 }
 
 .sle {
@@ -463,10 +460,6 @@ img {
     border: 2px solid black;
     outline: 1px solid white;
     background-color: white;
-}
-
-.sle-img{
-    flex-basis: 20%;
 }
 
 .bet{
@@ -774,24 +767,23 @@ img {
 
 @media screen and (max-width: 1280px) {
     .combine1 h3{
-        top: 372px;
-        font-size: 17px;
+        top: 460px;
+        font-size: 20px;
     }
 
     .combine2 h3{
-        top: 372px;
-        font-size: 17px;
+        top: 460px;
+        font-size: 20px;
     }
 
     .combine3 h3{
-        top: 372px;
-        font-size: 17px;
-        max-width: 203px;
+        top: 460px;
+        font-size: 20px;
     }
 
     .combine4 h3{
-        top: 372px;
-        font-size: 17px;
+        top: 460px;
+        font-size: 20px;
     }
 }
 
